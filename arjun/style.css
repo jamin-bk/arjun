@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500&display=swap');
+
+body{
+    font-family: Roboto, sans-serif;
+    margin:0;
+    font-size:18px;
+}
+
+header{
+    padding:40px 40px;
+    font-family: Roboto, sans-serif;
+    font-size: 18px;
+    
+}
+
+header p{
+    font-weight: 300;
+    
+}
+
+header h3{
+    font-weight: 500;
+    font-size:24px;
+}
+header h1{
+    font-size:42px;
+}
+
+.header-top{
+    display:flex;
+    flex-direction: row;
+    width:100%;
+    padding:0;
+    padding-top:0;
+}
+
+#header-top-img{
+    width:50%;
+}
+
+.header-top img{
+    height:100px;
+}
+
+.header-top-div{
+    width:50%;
+    align-items: flex-end;
+    font-size: 300;
+    text-align: center;
+}
+
+.header-top-div h3{
+    margin: 3px 0;
+}
+
+.header-top-div div{
+    float:right;
+    border-bottom: 2px solid rgb(16, 80, 29);
+    width: 148px;
+    margin: 0;
+
+}
+
+.header-top-div p{
+    margin-bottom:0;
+}
+
+#header-middle-text{
+    display:flex;
+    flex-direction: row;
+    align-self:flex-end;
+    padding-bottom: 10%;
+}
+
+.header-middle-div{
+    float:right;
+    text-align: start;
+    width:60%;
+    
+}
+
+#header-h{
+    
+    width:560px;
+    
+}
+
+#header-h div{
+    padding-left:10px;
+    border-left: 3px solid rgb(16, 80, 29);
+
+}
+
+#header-price{
+    align-self: flex-end;
+    padding-right: 10px;
+    color:rgb(16, 80, 29);
+    font-size:28px;
+    font-weight: 500;
+    display:flex;
+    flex-direction: row;
+    align-items: flex-start;
+    align-self:flex-end;
+
+}
+
+/*#header-price h3{
+    align-self:flex-end;
+    font-weight:300;
+}*/
+
+#header-img{
+    height:400px;
+
+}
+#header-img img{
+    height:400px;
+    padding:0;
+    padding-right: 40px;
+
+}
+
+button[id="hd-btn"]{
+    background-color: rgb(16, 80, 29);
+    color:white;
+    width:240px;
+    height:60px;
+    border: 0;
+    border-radius:30px;
+    font-size: 18px;
+}
+
+main{
+    margin:0 auto;
+    
+}
+
+#study-program{
+    background-color: rgb(38, 46, 39);
+    /*background-color: rgb(33, 36, 33);
+    background-color: rgb(48, 58, 50);*/
+    padding:20px 40px;
+    color: white;
+    font-weight: 300;
+    
+}
+#study-program h1{
+    font-size:36px;
+}
+#study-program h2{
+    font-weight: 500;
+    color: rgb(21, 104, 37);
+}
+
+#study-program-main{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+#program-number{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.program-number{
+    width:100%;
+}
+.program-number div{
+    display:flex;
+    flex-direction: row;
+    align-items: flex-start;
+    /*border-bottom: 2px solid rgb(16, 80, 29);*/
+    border-bottom: 2px solid rgb(21, 104, 37);
+    width:140px;
+}
+
+
+.program-number-third{
+    width:180px;
+}
+
+.program-number h2{
+    margin:0;
+    padding:0 4px;
+    font-size:54px;
+    
+}
+
+
+.program-number h3{
+    margin:0;
+    padding-bottom: 8px;
+    height:100%;
+    width:110px;
+    align-self:flex-end;
+    font-weight: 300;
+}
+
+.course-block-div{
+    border:4px inset rgb(21, 104, 37);
+    border-radius: 0px 35px 0 35px;
+    padding:10px;
+    margin: 20px 0;
+    width:700px;
+}
+.course-block-div h1{
+    padding-left:30px;
+}
+
+.course-block-div-list{
+    
+    display:flex;
+    flex-direction: row;
+    
+    align-items: flex-start;
+    align-self:center;
+}
+
+.course-block-div-list{
+    display:none;
+}
+
+.course-block-div h1:hover ~ .course-block-div-list{
+    display:flex;
+}
+
+.course-block-div-list div{
+    padding:10px;
+}
+.course-block-div-list h2{
+    padding-left:20px;
+}
+
+.aside{
+    padding:30px;
+}
