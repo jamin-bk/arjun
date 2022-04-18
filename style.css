@@ -10,7 +10,7 @@ header{
     padding:40px 40px;
     font-family: Roboto, sans-serif;
     font-size: 18px;
-    
+    background-color: rgba(127, 221, 158, 0.795);
 }
 
 header p{
@@ -39,7 +39,7 @@ header h1{
 }
 
 .header-top img{
-    height:100px;
+    height:120px;
 }
 
 .header-top-div{
@@ -62,26 +62,39 @@ header h1{
 }
 
 .header-top-div p{
-    margin-bottom:0;
+    margin-bottom:5px;
+    font-size: 16px;
+    font-weight: 500;
+    color:rgb(16, 80, 29);
+}
+.header-top-div p a{
+    color:rgb(16, 80, 29);
+}
+
+#fucken-button{
+    display:flex;
+    flex-direction: column;
+    align-self: flex-start;
+    width:50%;
 }
 
 #header-middle-text{
     display:flex;
     flex-direction: row;
-    align-self:flex-end;
+    align-self:center;
     padding-bottom: 10%;
 }
 
 .header-middle-div{
     float:right;
     text-align: start;
-    width:60%;
+    width:30%;
     
 }
 
 #header-h{
     
-    width:560px;
+    width:480px;
     
 }
 
@@ -110,14 +123,17 @@ header h1{
 }*/
 
 #header-img{
-    height:400px;
-
+    width:50%;
+    display:flex;
+    flex-direction: row;
+    justify-content:flex-end;
+    
 }
 #header-img img{
     height:400px;
     padding:0;
-    padding-right: 40px;
-
+    border:4px inset rgb(16, 80, 29);
+    border-radius: 35px 0 35px 0;
 }
 
 button[id="hd-btn"]{
@@ -216,14 +232,23 @@ main{
     
     align-items: flex-start;
     align-self:center;
-}
 
+}
+.course-block-div-list li{
+    color:rgb(21, 104, 37);
+}
+.course-block-div-list span{
+    color:white;
+}
 .course-block-div-list{
     display:none;
+    
+    transition:all 4s ease 4s;
 }
 
 .course-block-div h1:hover ~ .course-block-div-list{
     display:flex;
+    transition: all 4s ease 4s;
 }
 
 .course-block-div-list div{
@@ -236,3 +261,5 @@ main{
 .aside{
     padding:30px;
 }
+
+
