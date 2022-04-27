@@ -240,6 +240,8 @@ main{
 
 .course-block-div h1{
     padding-left:30px;
+    width: fit-content;
+    cursor: pointer;
 }
 
 .course-block-div-list{
@@ -261,15 +263,16 @@ main{
     color:white;
 }
 .course-block-div-list{
-    display:none;
     
-    transition:all 4s ease 4s;
+    transition: 0.5s ease-in-out;
+    max-height: 0;
+    overflow:hidden;
 }
 
-.course-block-div h1:hover ~ .course-block-div-list{
-    display:flex;
+/* .course-block-div h1:hover ~ .course-block-div-list{
+    min-height:320px;
     transition: all 4s ease 4s;
-}
+} */
 
 .course-block-div-list div{
     padding:10px;
@@ -327,9 +330,9 @@ main{
 .text-border{
     width: 520px;
     height:54px;
-    padding:6px;
-    border-radius: 35px;
-    background: linear-gradient(90deg, #0c8b07, #000000);
+    padding:7px;
+    border-radius: 34px;
+    background: linear-gradient(90deg, #09b303, #000000);
     background-size: 200% 200%;
     animation: gradient 5s ease infinite;
     border:0;
@@ -354,12 +357,12 @@ input[type="text"], input[type="tel"]{
     width:200px;
     height:60px;
     border: 0;
-    border-radius: 35px;
+    border-radius: 37px;
     margin-left: 12px;
-    background: linear-gradient(90deg, #0c8b07, #000000);
+    background: linear-gradient(90deg, #09b303, #000000);
     background-size: 200% 200%;
     animation: gradient 5s ease infinite;
-    padding:6px;
+    padding:7px;
 }
 
 button[id="submitFF"]{
