@@ -165,7 +165,7 @@ main{
 }
 #study-program h2{
     font-weight: 500;
-    color: rgb(21, 104, 37);
+    color: rgb(17, 151, 44);
 }
 
 #study-program-main{
@@ -213,14 +213,31 @@ main{
     align-self:flex-end;
     font-weight: 300;
 }
-
+#course-block-div{
+    background-color: rgb(38, 46, 39);
+    border:0;
+    border-radius: 0px 35px 0 35px;
+    padding:10px;
+}
 .course-block-div{
-    border:4px inset rgb(21, 104, 37);
+    border:0;
     border-radius: 0px 35px 0 35px;
     padding:10px;
     margin: 20px 0;
     width:700px;
 }
+
+
+.animation-border{
+    background: linear-gradient(90deg, #0c8b07, #000000);
+    background-size: 200% 200%;
+    animation: gradient 5s ease infinite;
+    border:0;
+    padding:5px;
+}
+
+
+
 .course-block-div h1{
     padding-left:30px;
 }
@@ -232,10 +249,13 @@ main{
     
     align-items: flex-start;
     align-self:center;
-
+    width:100%;
+}
+.course-block-div-list div{
+    width:50%;
 }
 .course-block-div-list li{
-    color:rgb(21, 104, 37);
+    color:rgb(17, 151, 44);
 }
 .course-block-div-list span{
     color:white;
@@ -263,3 +283,126 @@ main{
 }
 
 
+
+#form{
+    color: white;
+    font-weight: 300;
+    background-color: rgb(38, 46, 39);
+    padding:30px;
+}
+
+#form-block{
+    display:flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+    width:100%;
+}
+
+
+#form li{
+    color: rgb(17, 151, 44);
+    font-size: 20px;
+    padding: 5px;
+    
+}
+#form span{
+    
+    color:white;
+}
+
+.block-div{
+    width:50%;
+}
+
+.form-div{
+    margin:10px;
+    padding: 10px;
+    background-color: rgb(21, 104, 37);
+    /* border: 5px solid rgb(16, 80, 29); */
+    border-radius: 40px;
+    width:550px;
+}
+
+.text-border{
+    width: 520px;
+    height:54px;
+    padding:6px;
+    border-radius: 35px;
+    background: linear-gradient(90deg, #0c8b07, #000000);
+    background-size: 200% 200%;
+    animation: gradient 5s ease infinite;
+    border:0;
+    margin: 10px;
+}
+
+input[type="text"], input[type="tel"]{
+    background-color:rgb(224, 224, 224);
+    font-size:22px;
+    color:black;
+    width: 500px;
+    height:44px;
+    padding:5px 10px;
+    border:0;
+    border-radius:25px;
+}
+::-webkit-input-placeholder { /* WebKit browsers*/
+    color:rgb(38, 46, 39);
+}  
+
+#form-button{
+    width:200px;
+    height:60px;
+    border: 0;
+    border-radius: 35px;
+    margin-left: 12px;
+    background: linear-gradient(90deg, #0c8b07, #000000);
+    background-size: 200% 200%;
+    animation: gradient 5s ease infinite;
+    padding:6px;
+}
+
+button[id="submitFF"]{
+    background-color:rgb(224, 224, 224);
+    border:0;
+    border-radius:30px;
+    font-size:22px;
+    color:rgb(38, 46, 39);
+    width: 200px;
+    height:60px;
+    cursor: pointer;
+}
+
+#form h1{
+    font-size:40px;
+    font-weight: 500;
+}
+#form h3{
+    margin-top: 0;
+    font-size: 28px;
+    font-weight: 500;
+    color: rgb(17, 151, 44);
+}
+
+@keyframes gradient {
+	0%{
+        background-position: 0%;
+    }
+	25% {
+		background-position: 50%;
+	}
+	50% {
+		background-position: 100%;
+	}
+    75%{
+        background-position: 50%;
+    }
+    100%{
+        background-position: 0%;
+    }
+}
+
+/* #ajax-contact-form{
+    
+    vertical-align: middle;
+} */ 
