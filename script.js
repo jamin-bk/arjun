@@ -3,10 +3,12 @@ document.querySelectorAll('.course-block-div h1').forEach((el) => {
         let content = el.nextElementSibling;
         console.log(content);
         if(content.style.maxHeight){
-            document.querySelectorAll('.course-block-div-list').forEach((el => el.style.maxHeight = null))
+            document.querySelectorAll('.course-block-div-list').forEach((el => el.style.maxHeight = null));
         }else{
-            document.querySelectorAll('.course-block-div-list').forEach((el => el.style.maxHeight = null))
-            content.style.maxHeight = content.scrollHeight + 'px'
+            document.querySelectorAll('.course-block-div-list').forEach((el => el.style.maxHeight = null));
+            content.style.maxHeight = content.scrollHeight + 'px';
+            // document.querySelectorAll('.course-block-div');
+            // content.style.borderRadius = 10 + 'px';
         }
     })
 })
