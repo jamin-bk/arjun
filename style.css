@@ -1,23 +1,13 @@
-@font-face {
-    font-family: "gilroy";
-    src: url("images/gilroy/gilroy-black.ttf"),
-    url("images/gilroy/gilroy-bold.ttf"),
-    url("images/gilroy/gilroy-heavy.ttf"),
-    url("images/gilroy/gilroy-medium.ttf"), 
-    url("images/gilroy/gilroy-lightitalic.ttf"), 
-    url("images/gilroy/gilroy-regular.ttf"), 
-    url("images/gilroy/gilroy-thin.ttf");
-    font-weight:300;
-}
+/* @import url('http://fonts.cdnfonts.com/css/gilroy-bold'); */
 
 body{
-    font-family: "gilroy-medium";
+    font-family: 'Gilroy';
     margin:0;
     font-size:18px;
 }
 
 header{
-    font-family: "gilroy";
+    font-family: 'Gilroy';
     font-size: 18px;
     background-color: white;
     
@@ -252,10 +242,11 @@ button[id="hd-btn"]{
         width:60%;
         margin: 0;
         padding-left:0;
-        padding-right: 70%;
+        padding-right: 90%;
         align-self:center;
-        margin-right: -30%;
-        padding-bottom: 40px;
+        margin-right: -50%;
+        padding-bottom: 140px;
+        margin-bottom: -100px;
     }
     #header-h{
     
