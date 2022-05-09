@@ -1,13 +1,23 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500&display=swap');
+@font-face {
+    font-family: "gilroy";
+    src: url("images/gilroy/gilroy-black.ttf"),
+    url("images/gilroy/gilroy-bold.ttf"),
+    url("images/gilroy/gilroy-heavy.ttf"),
+    url("images/gilroy/gilroy-medium.ttf"), 
+    url("images/gilroy/gilroy-lightitalic.ttf"), 
+    url("images/gilroy/gilroy-regular.ttf"), 
+    url("images/gilroy/gilroy-thin.ttf");
+    font-weight:300;
+}
 
 body{
-    font-family: Roboto, sans-serif;
+    font-family: "gilroy-medium";
     margin:0;
     font-size:18px;
 }
 
 header{
-    font-family: Roboto, sans-serif;
+    font-family: "gilroy";
     font-size: 18px;
     background-color: white;
     
@@ -24,7 +34,7 @@ header h3{
     font-size:24px;
 }
 header h1{
-    font-size:42px;
+    font-size:56px;
 }
 
 .header-top {
@@ -53,7 +63,7 @@ header h1{
     
     font-size: 16px;
     color:rgb(255, 255, 255);
-    text-align: center;
+    /* text-align:start; */
     justify-content: center;
 }
 
@@ -62,9 +72,9 @@ header h1{
     margin: 0 20px;
     align-self: center;
     align-items: center;
-    justify-content: center;
+    justify-content:flex-start;
     
-    text-align: center;
+    text-align: left;
 }
 
 .header-top-div a{
@@ -72,12 +82,12 @@ header h1{
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     background-color: white;
     
     text-decoration: none;
     height: 34px;
-    width:180px;
+    width:150px;
     border-radius: 20px;
     padding:0 5px;
     padding-left:0;
@@ -91,6 +101,15 @@ header h1{
     vertical-align:middle ;
     align-items: center;
 }
+
+.small-svg1 a img{
+    height:24px;
+}
+
+.small-svg2 a img{
+    height:22px;
+}
+
 .header-top-div a p{
     font-weight: 500;
 }
@@ -179,8 +198,10 @@ header h1{
     align-self: flex-start;
     width:60%;
     margin:60px;
+    margin-top:6px;
     margin-bottom: -130px;
     padding:0 5%;
+    padding-top: 60px;
     padding-right: 35%;
     align-self:center;
     padding-bottom: 130px;
@@ -195,7 +216,7 @@ header h1{
 
 #header-h-div{
     padding-left:10px;
-
+    
 }
 
 
@@ -259,6 +280,7 @@ button[id="hd-btn"]{
 
 main{
     margin:0 auto;
+    font-family: "gilroy";
     
 }
 
@@ -281,6 +303,7 @@ section{
 #study-program{
     background-color: #033003;
     padding:20px 40px;
+    padding-bottom: 100px;
     color: white;
     font-weight: 300;
     
@@ -303,6 +326,7 @@ section{
     display:flex;
     flex-direction: row;
     color: white;
+    margin:60px 0;
 }
 
 .program-number{
@@ -324,17 +348,17 @@ section{
 .program-number h2{
     margin:0;
     padding:0 4px;
-    font-size:65px;
+    font-size:100px;
+    align-self: center;
     
 }
 
 
 .program-number h3{
     margin:0;
-    padding-bottom: 8px;
     height:100%;
     width:120px;
-    align-self:flex-end;
+    align-self:center;
     font-weight: 300;
     font-size:26px;
 }
@@ -736,11 +760,11 @@ button[id="submitFF"]{
     #form-button{
         display: flex;
         justify-content: center;
-        width:100%;
+        width:calc(100% - 14px);
         height:40px;
         border: 0;
         border-radius: 37px;
-        margin-left: 12px;
+        margin-left: 0;
         text-align: center;
         padding:7px;
         font-weight: 500;
