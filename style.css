@@ -640,7 +640,19 @@ section{
     font-size: 24px;
 }
 
-
+@media screen and (max-width:440px) {
+    .course-form-list{
+        padding: 2px 0;
+    
+        border-radius: 12px;
+        margin:2px 0;
+    }
+    .course-form-list h3{
+        align-self: center;
+        margin:0;
+        font-size: 16px;
+    }
+}
 
 #form{
     color: black;
