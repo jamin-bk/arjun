@@ -482,6 +482,7 @@ section{
     .course-block-div-list div{
         width:calc(100% - 20px);
         padding:10px;
+        font-size: 16px;
     }
     .course-block-div-list li{
         color:#033003;
@@ -641,6 +642,18 @@ section{
 }
 
 @media screen and (max-width:440px) {
+    #course-form-block{
+        display:flex;
+        flex-direction: row;
+        width:98%;
+        padding:1%;
+    }
+    .course-form-div{
+        width:calc((98%-18%)/3);
+        margin:0 3%;
+        border-radius:40px;
+        padding: 0;
+    }
     .course-form-list{
         padding: 2px 0;
     
@@ -650,7 +663,8 @@ section{
     .course-form-list h3{
         align-self: center;
         margin:0;
-        font-size: 14px;
+        font-size: 11px;
+        font-family: 'Gilroy Black';
     }
 }
 
@@ -780,7 +794,7 @@ button[id="submitFF"]{
     #form li{
         font-weight: 500;
         color: #033003;
-        font-size: 20px;
+        font-size: 16px;
         padding: 5px;
         
     }
