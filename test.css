@@ -565,7 +565,10 @@ section{
     -ms-flex-item-align:center;
         -ms-grid-row-align:center;
         align-self:center;
+    -webkit-border-radius: 50px;
+        border-radius: 50px;
     width:100%;
+    overflow:hidden;
 }
 .course-block-div-list div{
     width:50%;
@@ -631,7 +634,10 @@ section{
         -ms-flex-item-align:center;
             -ms-grid-row-align:center;
             align-self:center;
+        -webkit-border-radius: 50px;
+            border-radius: 50px;
         width:100%;
+        overflow:hidden;
     }
     .course-block-div-list div{
         width:calc(100% - 20px);
