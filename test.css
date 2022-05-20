@@ -534,6 +534,7 @@ section{
     padding:10px;
     margin: 20px 0;
     width:560px;
+    overflow:hidden;
 }
 
 .course-block-div h1{
@@ -613,6 +614,7 @@ section{
         padding:5px;
         margin: 5px 5px;
         width:calc(100% - 20px);
+        overflow:hidden;
     }
     .course-block-div-list{
         
