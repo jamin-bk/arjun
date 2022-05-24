@@ -291,6 +291,9 @@ button[id="hd-btn"]{
     border-radius:30px;
     font-size: 22px;
     cursor: pointer;
+    -webkit-appearance: none;
+       -moz-appearance:    none;
+       appearance:         none;
 }
 
 @media screen and (max-width:440px) {
@@ -343,6 +346,9 @@ button[id="hd-btn"]{
         height:40px;
         border-radius:20px;
         font-size: 16px;
+        -webkit-appearance: none;
+       -moz-appearance:    none;
+       appearance:         none;
     }
 }
 
@@ -1005,6 +1011,9 @@ button[id="submitFF"]{
     width: 200px;
     height:50px;
     cursor: pointer;
+    -webkit-appearance: none;
+       -moz-appearance:    none;
+       appearance:         none;
 }
 
 #form h1{
@@ -1122,6 +1131,9 @@ button[id="submitFF"]{
         width: 200px;
         height:50px;
         cursor: pointer;
+        -webkit-appearance: none;
+       -moz-appearance:    none;
+       appearance:         none;
     }
     
     #form h1{
