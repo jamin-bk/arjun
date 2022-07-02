@@ -37,10 +37,13 @@
                 
             </div>
             
-            <div id="header-button">
-                <form action="#form">
+            <!-- <div id="header-button"> -->
+                <!-- <form action="#form">
                     <button class="header-button" type="submit" id="hd-btn"  >Оставить заявку</button>
-                </form>
+                </form> 
+            </div> -->
+            <div id="header-button">
+                <a href="#form">Оставить заявку</a>
             </div>
         </div>
     </header>
@@ -71,10 +74,12 @@
             <div id="study-program-main">
                 
                 <div id="course-block">
-                    <div class="course-block-div">
-                        
-                        <h1>Фондовый рынок</h1>
-                        <div class="course-block-div-list">
+                    <div  class="course-block-div ">
+                        <input type="checkbox" id="vis-panel" name="vis-panel" />
+                        <label for="vis-panel"  class="Checkbox"><h1>Фондовый рынок</h1> 
+                            <div id="vis-icon"><img class="arrow-icon" src="images/arrow-in-text.svg"></div>
+                        </label>
+                        <div id="wp" class="course-block-div-list Visible">
                             <div>
                                 <h2>Изучите</h2>
                                 <ol>
@@ -104,10 +109,12 @@
                         
                     </div>
                     
-                    <div class="animation-border course-block-div">
-                       
-                        <h1>Инструменты трейдинга</h1>
-                        <div class="course-block-div-list">
+                    <div  class="course-block-div ">
+                        <input type="checkbox" id="vis-panel1" name="vis-panel" />
+                        <label for="vis-panel1"  class="Checkbox"><h1>Инструменты трейдинга</h1> 
+                            <div id="vis1-icon"><img  class="arrow-icon" src="images/arrow-in-text.svg"></div>
+                        </label>
+                        <div id="wp1" class="course-block-div-list Visible">
                             <div>
                                 <h2>Изучите</h2>
                                 <ol>
@@ -137,10 +144,12 @@
                         
                     </div>
                     
-                    <div class="animation-border course-block-div">
-                        
-                        <h1>Риск-менеджмент</h1>
-                        <div class="course-block-div-list">
+                    <div  class="course-block-div">
+                        <input type="checkbox" id="vis-panel2" name="vis-panel" />
+                        <label for="vis-panel2"  class="Checkbox"><h1>Инструменты трейдинга</h1>
+                            <div id="vis2-icon"><img class="arrow-icon" src="images/arrow-in-text.svg"></div>
+                        </label>
+                        <div id="wp2" class="course-block-div-list Visible">
                             <div>
                                 <h2>Изучите</h2>
                                 <ol>
@@ -170,10 +179,12 @@
                         
                     </div>
                     
-                    <div class="animation-border course-block-div">
-                        
-                        <h1>Технический анализ</h1>
-                        <div class="course-block-div-list">
+                    <div  class="course-block-div ">
+                        <input type="checkbox" id="vis-panel3" name="vis-panel" />
+                        <label for="vis-panel3"  class="Checkbox"><h1>Технический анализ</h1>
+                            <div id="vis3-icon"><img class="arrow-icon" src="images/arrow-in-text.svg"></div>
+                        </label>
+                        <div id="wp3" class="course-block-div-list Visible">
                             <div>
                                 <h2>Изучите</h2>
                                 <ol>
@@ -233,26 +244,50 @@
         </section>
         <section id="course-form">
             <h1>Формат курсов</h1>
+            <input checked type="radio" id="scales" name="scales"  />
+    
+            <input type="radio" id="scales1" name="scales" />
+            
+            <input type="radio" id="scales2" name="scales" />
+            <!-- <div id="RadioBoxRow">
+            </div> -->
             <div id="course-form-block">
-                <div class="course-form-div course-form-beyond">
-                    <img src="images/форма 1.png">
-                    <div class="course-form-list">
+                
+                <div class="course-form-div course-form-beyond" id="mv">
+                    <img class="ads-img" src="images/форма 1.png">
+                    <label for="scales"  class="Radio"><div class="course-form-list">
                         <h3>Онлайн обучение</h3>
-                    </div>
+                    </div></label>
+                    <img class="arrow-img" src="images/two_down_arrow.svg">
                 </div>
-                <div class="course-form-div">
-                    <img src="images/форма 2.png">
-                    <div class="course-form-list">
+                <div class="course-form-div" id="mv1">
+                    <img class="ads-img" src="images/форма 2.png">
+                    <label for="scales1"  class="Radio"><div class="course-form-list">
                         <h3>Оффлайн обучение</h3>
-                    </div>
+                    </div></label>
+                    <img class="arrow-img" src="images/two_down_arrow.svg">
                 </div>
-                <div class="course-form-div">
-                    <img src="images/формат 3.png">
-                    <div class="course-form-list">
-                        <h3>Индивидуальное обучение</h3>
-                    </div>
+                <div class="course-form-div" id="mv2">
+                    <img class="ads-img" src="images/формат 3.png">
+                    <label for="scales2"  class="Radio"><div class="course-form-list">
+                        <h3>Индив. обучение</h3>
+                    </div></label>
+                    <img class="arrow-img" src="images/two_down_arrow.svg">
                 </div>
+                
             </div>
+            <div id="Mp-block">
+                <div id="Mp" class="Move">
+                    <p>Дистанционное образование может улучшить ваши карьерные перспективы. Даже работая полный рабочий день, вы можете зарегистрироваться и пройти онлайн-программу.</p>
+                    
+                </div>
+                <div id="Mp1" class="Move">
+                    <p>Обучение в группе помогает построить отношения с другими студентами и преподавателями. Это также отличная возможность завязать полезные знакомства.</p>
+                </div>
+                <div id="Mp2" class="Move">
+                    <p>Возможность выбрать любой темп ведения урока. Возможность высказывать своё мнение без боязни критики. Индивидуальный график</p>
+                </div>
+              </div>
         </section>
         <section id="form">
             <h1>Оставить заявку на обучение</h1>
@@ -296,8 +331,8 @@
     <footer>
 
     </footer>
-    <script src="script.js"></script>
-    
+    <!-- <script src="script.js"></script> -->
+     
 </body>
 
 </html>
