@@ -652,6 +652,9 @@ input[type="checkbox"] {
 /* Конец нового кода Блока с появляющимся текстом  */
 
 @media screen and (max-width:440px) {
+    #course-block{
+        width:calc(100% - 10px);
+    }
     .course-block-div{
         background-color: white;
         color: black;
@@ -665,8 +668,8 @@ input[type="checkbox"] {
             -webkit-border-bottom-right-radius: 50px;
             border-bottom-right-radius: 50px;
         padding:5px;
-        margin: 5px 5px;
-        width:calc(100% - 20px);
+        margin: 5px;
+        width:calc(100% - 10px);
         overflow:hidden;
     }
     .course-block-div-list{
@@ -719,7 +722,7 @@ input[type="checkbox"] {
     } */
     
     .course-block-div h1{
-        font-size: 24px;
+        font-size: 22px;
         padding:0;
         width: -webkit-fit-content;
         width: -moz-fit-content;
@@ -733,6 +736,77 @@ input[type="checkbox"] {
     .aside{
         padding:30px;
     }
+    input[type="checkbox"] {
+        display: none;
+      }
+      
+      .Checkbox {
+        display: flex;
+        flex-direction: row;
+        width:100%;
+        cursor:pointer;
+      }
+      .Checkbox div{
+        align-self: center;
+      } 
+      .Checkbox h1{
+        width: calc(100% - 100px);
+      }
+      .Visible{
+        display: none;
+        
+    
+      }
+      
+      input[id="vis-panel"]:checked ~ #wp {
+        display:flex;
+        animation: appear 1s ease;
+      }
+      
+      input[id="vis-panel1"]:checked ~ #wp1 {
+        display:flex;
+        animation: appear 1s ease;
+      }
+      
+      input[id="vis-panel2"]:checked ~ #wp2 {
+        display:flex;
+        animation: appear 1s ease;
+      }
+      
+      input[id="vis-panel3"]:checked ~ #wp3 {
+        display:flex;
+        animation: appear 1s;
+      }
+    
+      .arrow-icon{
+        width:36px;
+        transition: transform 1s;
+      }
+      
+      input[id="vis-panel"]:checked ~ .Checkbox #vis-icon .arrow-icon{
+        transform: rotate(180deg);
+      }
+      input[id="vis-panel1"]:checked ~ .Checkbox #vis1-icon .arrow-icon{
+        transform: rotate(180deg);
+      }
+      input[id="vis-panel2"]:checked ~ .Checkbox #vis2-icon .arrow-icon{
+        transform: rotate(180deg);
+      }
+      input[id="vis-panel3"]:checked ~ .Checkbox #vis3-icon .arrow-icon{
+        transform: rotate(180deg);
+      }
+    
+      
+    
+    
+      @keyframes appear {
+        0% {
+          opacity: 0;
+        }
+        100% {
+          opacity: 1;
+        }
+      }
 }
 
 #galery{
