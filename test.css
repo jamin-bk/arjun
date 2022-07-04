@@ -1192,7 +1192,7 @@ button[id="submitFF"]{
     color: #033003;
 }
 
-@media screen and (max-width:440px) {
+@media screen and (max-width:460px) {
     #form{
         color: black;
         background-color: white;
@@ -1281,7 +1281,7 @@ button[id="submitFF"]{
         background-color:red;
         border:0;
         border-radius:30px;
-        font-size:22px;
+        font-size:18px;
         font-weight:500;
         color:white;
         width: 200px;
