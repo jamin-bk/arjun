@@ -908,11 +908,13 @@ input[type="checkbox"] {
     padding:3%;
 }
 .course-form-div{
+    width:27.3%;
     width:calc((100%-18%)/3);
     margin:0 3%;
     border-radius:40px;
     padding: 0;
     /* background-color: white; */
+    
 }
 
 .course-form-div .ads-img{
@@ -923,6 +925,7 @@ input[type="checkbox"] {
 .course-form-beyond .ads-img{
     margin:0 -20%;
     margin-left:-7%;
+    width:127%;
     width:calc(100% + 27%);
 }
 
@@ -1047,6 +1050,7 @@ input[id="scales2"]:checked ~ #course-form-block #mv2 .arrow-img{
         padding:1%;
     }
     .course-form-div{
+        width:27.3%;
         width:calc((100% - 18%)/3);
         margin:0 3%;
         border-radius:14px;
