@@ -909,7 +909,7 @@ input[type="checkbox"] {
 }
 .course-form-div{
     width:27.3%;
-    width:calc((100%-18%)/3);
+    width:calc((100% - 18%) / 3);
     margin:0 3%;
     border-radius:40px;
     padding: 0;
@@ -1051,7 +1051,7 @@ input[id="scales2"]:checked ~ #course-form-block #mv2 .arrow-img{
     }
     .course-form-div{
         width:27.3%;
-        width:calc((100% - 18%)/3);
+        width:calc((100% - 18%) / 3);
         margin:0 3%;
         border-radius:14px;
         padding: 0;
