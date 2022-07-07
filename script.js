@@ -17,29 +17,32 @@ function CheckedFun(){
     let BorderStyle2 = document.getElementById("vis-panel1");
     let BorderStyle3 = document.getElementById("vis-panel2");
     let BorderStyle4 = document.getElementById("vis-panel3");
-    let CourseBlockDiv = document.querySelector('.course-block-div');
+    let CourseBlockDiv1 = document.getElementById('course-block-div1');
+    let CourseBlockDiv2 = document.getElementById('course-block-div2');
+    let CourseBlockDiv3 = document.getElementById('course-block-div3');
+    let CourseBlockDiv4 = document.getElementById('course-block-div4');
     if(BorderStyle1.checked){
-        CourseBlockDiv.style.borderRadius = '25px';
-        CourseBlockDiv.style.WebkitBorderRadius = '25px';
+        CourseBlockDiv1.style.borderRadius =25 + 'px';
+        CourseBlockDiv1.style.WebkitBorderRadius = 25 + 'px';
     }else{
-        CourseBlockDiv.style.borderRadius = '50px';
+        CourseBlockDiv1.style.borderRadius = 50 + 'px';
     }
     if(BorderStyle2.checked){
-        CourseBlockDiv.style.borderRadius = '25px';
-        CourseBlockDiv.style.WebkitBorderRadius = '25px';
+        CourseBlockDiv2.style.borderRadius =25 + 'px';
+        CourseBlockDiv2.style.WebkitBorderRadius = 25 + 'px';
     }else{
-        CourseBlockDiv.style.borderRadius = '50px';
+        CourseBlockDiv2.style.borderRadius = 50 + 'px';
     }
     if(BorderStyle3.checked){
-        CourseBlockDiv.style.borderRadius = '25px';
-        CourseBlockDiv.style.WebkitBorderRadius = '25px';
+        CourseBlockDiv3.style.borderRadius = '25px';
+        CourseBlockDiv3.style.WebkitBorderRadius = '25px';
     }else{
-        CourseBlockDiv.style.borderRadius = '50px';
+        CourseBlockDiv3.style.borderRadius = '50px';
     }
     if(BorderStyle4.checked){
-        CourseBlockDiv.style.borderRadius = '25px';
-        CourseBlockDiv.style.WebkitBorderRadius = '25px';
+        CourseBlockDiv4.style.borderRadius = '25px';
+        CourseBlockDiv4.style.WebkitBorderRadius = '25px';
     }else{
-        CourseBlockDiv.style.borderRadius = '50px';
+        CourseBlockDiv4.style.borderRadius = '50px';
     }
 }
