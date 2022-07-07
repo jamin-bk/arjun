@@ -19,23 +19,27 @@ function CheckedFun(){
     let BorderStyle4 = document.getElementById("vis-panel3");
     let CourseBlockDiv = document.querySelector('.course-block-div');
     if(BorderStyle1.checked){
-        CourseBlockDiv.style.borderRadius = '18px';
+        CourseBlockDiv.style.borderRadius = '25px';
+        CourseBlockDiv.style.WebkitBorderRadius = '25px';
     }else{
-        CourseBlockDiv.style.borderRadius = '40px';
+        CourseBlockDiv.style.borderRadius = '50px';
     }
     if(BorderStyle2.checked){
-        CourseBlockDiv.style.borderRadius = '18px';
+        CourseBlockDiv.style.borderRadius = '25px';
+        CourseBlockDiv.style.WebkitBorderRadius = '25px';
     }else{
-        CourseBlockDiv.style.borderRadius = '40px';
+        CourseBlockDiv.style.borderRadius = '50px';
     }
     if(BorderStyle3.checked){
-        CourseBlockDiv.style.borderRadius = '18px';
+        CourseBlockDiv.style.borderRadius = '25px';
+        CourseBlockDiv.style.WebkitBorderRadius = '25px';
     }else{
-        CourseBlockDiv.style.borderRadius = '40px';
+        CourseBlockDiv.style.borderRadius = '50px';
     }
     if(BorderStyle4.checked){
-        CourseBlockDiv.style.borderRadius = '18px';
+        CourseBlockDiv.style.borderRadius = '25px';
+        CourseBlockDiv.style.WebkitBorderRadius = '25px';
     }else{
-        CourseBlockDiv.style.borderRadius = '40px';
+        CourseBlockDiv.style.borderRadius = '50px';
     }
 }

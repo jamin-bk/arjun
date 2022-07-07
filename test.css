@@ -497,14 +497,8 @@ section{
     background-color: white;
     color: black;
     border:0;
-    -webkit-border-top-left-radius: 50px;
-    border-top-left-radius: 50px;
-    -webkit-border-top-right-radius: 50px;
-    border-top-right-radius: 50px;
-        -webkit-border-bottom-left-radius: 50px;
-        border-bottom-left-radius: 50px;
-        -webkit-border-bottom-right-radius: 50px;
-        border-bottom-right-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
     padding:10px;
     margin: 20px 0;
     width:560px;
@@ -535,14 +529,8 @@ section{
     -ms-flex-item-align:center;
         -ms-grid-row-align:center;
         align-self:center;
-        -webkit-border-top-left-radius: 50px;
-        border-top-left-radius: 50px;
-        -webkit-border-top-right-radius: 50px;
-        border-top-right-radius: 50px;
-            -webkit-border-bottom-left-radius: 50px;
-            border-bottom-left-radius: 50px;
-            -webkit-border-bottom-right-radius: 50px;
-            border-bottom-right-radius: 50px;
+        /* -webkit-border-radius: 50px;
+        border-radius: 50px; */
     width:100%;
     height: max-content;
     overflow:hidden;
@@ -638,6 +626,20 @@ input[type="checkbox"] {
     transform: rotate(180deg);
   }
 
+
+/* Необходимо изменить стили course-block-div через сhecked  input[id="vis-panel"]*/
+  /* input[id="vis-panel"]:checked ~ .Checkbox #vis-icon .arrow-icon{
+    transform: rotate(180deg);
+  }
+  input[id="vis-panel1"]:checked ~ .Checkbox #vis1-icon .arrow-icon{
+    transform: rotate(180deg);
+  }
+  input[id="vis-panel2"]:checked ~ .Checkbox #vis2-icon .arrow-icon{
+    transform: rotate(180deg);
+  }
+  input[id="vis-panel3"]:checked ~ .Checkbox #vis3-icon .arrow-icon{
+    transform: rotate(180deg);
+  } */
   
 
 
@@ -659,14 +661,6 @@ input[type="checkbox"] {
         background-color: white;
         color: black;
         border:0;
-        -webkit-border-top-left-radius: 50px;
-        border-top-left-radius: 50px;
-        -webkit-border-top-right-radius: 50px;
-        border-top-right-radius: 50px;
-            -webkit-border-bottom-left-radius: 50px;
-            border-bottom-left-radius: 50px;
-            -webkit-border-bottom-right-radius: 50px;
-            border-bottom-right-radius: 50px;
         padding:5px;
         margin: 5px;
         width:calc(100% - 10px);
@@ -689,14 +683,7 @@ input[type="checkbox"] {
         -ms-flex-item-align:center;
             -ms-grid-row-align:center;
             align-self:center;
-            -webkit-border-top-left-radius: 50px;
-            border-top-left-radius: 50px;
-            -webkit-border-top-right-radius: 50px;
-            border-top-right-radius: 50px;
-                -webkit-border-bottom-left-radius: 50px;
-                border-bottom-left-radius: 50px;
-                -webkit-border-bottom-right-radius: 50px;
-                border-bottom-right-radius: 50px;
+
         width:100%;
         height: max-content;
         overflow:hidden;
@@ -777,7 +764,7 @@ input[type="checkbox"] {
         display:flex;
         animation: appear 1s;
       }
-    
+      
       .arrow-icon{
         width:36px;
         transition: transform 1s;
