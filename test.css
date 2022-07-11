@@ -228,7 +228,7 @@ header h1{
 }
 
 #header-middle-text{
-    background-image: url("images/header-1.png");
+    background-image: url("images/header.png");
     background-position: right bottom;
     background-size: contain;
     background-repeat: no-repeat;
@@ -711,7 +711,7 @@ input[type="checkbox"] {
     } */
     
     .course-block-div h1{
-        font-size: 22px;
+        font-size: 20px;
         padding:0;
         width: -webkit-fit-content;
         width: -moz-fit-content;
@@ -952,6 +952,7 @@ input[type="checkbox"] {
         align-self: center;
     margin:0;
     font-size: 24px;
+    font-family: 'Gilroy Medium';
 }
 
 
@@ -1057,7 +1058,7 @@ input[id="scales2"]:checked ~ #course-form-block #mv2 .arrow-img{
             align-self: center;
         margin:0;
         font-size: 11px;
-        font-family: 'Gilroy Black';
+        font-family: 'Gilroy Medium';
     }
     .Move {
         width: 80%;
