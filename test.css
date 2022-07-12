@@ -391,13 +391,14 @@ section{
             flex-direction: row;
     color: white;
     margin:60px 0;
+    justify-content: center;
 }
 
 .program-number{
     display:-webkit-box;
     display:-ms-flexbox;
     display:flex;
-    -webkit-box-orient: horizontal;
+    /* -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
@@ -408,9 +409,12 @@ section{
         -ms-grid-row-align: center;
         align-self: center;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
+        -ms-flex-pack: center; */
             justify-content: center;
-    width:100%;
+    /* width:calc(100% - 30px); 
+    width:-webkit-calc(100% - 30px);
+    width:-moz-calc(100% - 30px); */
+    width: 100%;
     margin:30px 0;
 }
 .pro-num-line{
@@ -431,9 +435,14 @@ section{
     margin:0;
     height:100%;
     width:120px;
-    -ms-flex-item-align:center;
+    /* -ms-flex-item-align:center;
         -ms-grid-row-align:center;
-        align-self:center;
+        align-self:center; */
+        -ms-flex-item-align:end;
+        align-self:flex-end;
+        -webkit-box-align: end;
+        -ms-flex-align: end;
+        align-items: flex-end;
     font-weight: 300;
     font-size:26px;
 }
@@ -484,10 +493,13 @@ section{
         margin:0;
         padding-bottom: 8px;
         height:100%;
-        width:calc(100% - 16px);
-        -ms-flex-item-align:center;
-            -ms-grid-row-align:center;
-            align-self:center;
+        /* width:calc(100% - 16px); */
+        width:fit-content;
+        -ms-flex-item-align:end;
+    align-self:flex-end;
+    -webkit-box-align: end;
+    -ms-flex-align: end;
+        align-items: flex-end;
         font-weight: 300;
         font-size:18px;
     }
@@ -912,10 +924,10 @@ input[type="checkbox"] {
 }
 
 .course-form-beyond .ads-img{
-    margin:0 -20%;
-    margin-left:-7%;
-    width:127%;
-    width:calc(100% + 27%);
+    margin-left:-7.8%;
+    margin-right: -20.8%;
+    width:calc(100% + 28.6%);
+    width:128.6%;
 }
 
 .arrow-img{
@@ -1303,4 +1315,9 @@ footer{
     padding:20px;
     margin:0;
     
+}
+footer p{
+    text-align: center;
+    margin:10px auto;
+    color:white;
 }
